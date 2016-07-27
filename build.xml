@@ -69,7 +69,7 @@
             </fileset>
         </copy>
     </target>
-    
+
 <!-- ============================================================== -->
 <!-- Tomcat tasks - remove these if you don't have Tomcat installed -->
 <!-- ============================================================== -->
@@ -92,8 +92,8 @@
 	<taskdef name="catalina-start" classname="org.apache.catalina.ant.StartTask" classpathref="catalina-ant-classpath"/>
 	<taskdef name="catalina-stop" classname="org.apache.catalina.ant.StopTask" classpathref="catalina-ant-classpath"/>
 	<taskdef name="catalina-undeploy" classname="org.apache.catalina.ant.UndeployTask" classpathref="catalina-ant-classpath"/>
-	
-	
+
+
     <!--<taskdef name="install" classname="org.apache.catalina.ant.InstallTask">
         <classpath refid="catalina-ant-classpath"/>
     </taskdef>-->
