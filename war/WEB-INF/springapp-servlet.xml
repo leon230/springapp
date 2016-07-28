@@ -9,4 +9,6 @@
 
     <bean name="/hello.htm" class="springapp.web.HelloController"/>
 
+    <bean name="/table.htm" class="springapp.web.TableController"/>
+
 </beans>
